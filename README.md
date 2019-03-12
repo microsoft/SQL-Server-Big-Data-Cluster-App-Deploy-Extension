@@ -4,11 +4,11 @@ Visual Studio Code Extension for deploying applications to a SQL Server Big Data
 
 ## Example Usage
 
-This extension is in private preview.  If you find any bugs or have any feedback, feel free to reach out.
+This extension is in preview.  If you find any bugs or have any feedback, feel free to reach out.
 
 ### Install
 
-Download the sqlservbdc-app-deploy .vsix file in order to install the extension as part of Visual Studio Code.  To retrieve the latest version, go to `Pipelines`, click on the latest successful build, and download the artifacts.  In the artifacts, you will see the .vsix file which you can download.
+Download the sqlservbdc-app-deploy .vsix file in order to install the extension as part of Visual Studio Code.
 
 Launch VS Code and navigate to the Extensions sidebar.
 
