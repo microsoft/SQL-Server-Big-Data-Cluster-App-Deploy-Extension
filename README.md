@@ -28,7 +28,7 @@ When you click on it, a side pane will load showing you that you have no apps or
 
 #### New Connection
 
-You may connect to your cluster endpoint either by clicking on the status bar at the bottom that says `SQL Server BDC Disconnected` or you may click on the `New Connection` button at the top with the arrow pointing into a doorway.
+You may connect to your cluster endpoint either by clicking on the status bar at the bottom that says `SQL Server BDC Disconnected` or you may click on the `New Connection` button at the top with the arrow pointing into a doorway.  **After version 3.0.0, please connect to the controller endpoint at https://\<ip\>:30080.  The proxy endpoint at https://\<ip\>:30777 will no longer be valid.**
 
 ![New Connection](assets/images/connect_to_cluster.png)
 
