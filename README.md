@@ -28,11 +28,11 @@ When you click on it, a side pane will load showing you that you have no apps or
 
 #### New Connection
 
-You may connect to your cluster endpoint either by clicking on the status bar at the bottom that says `SQL Server BDC Disconnected` or you may click on the `New Connection` button at the top with the arrow pointing into a doorway.  **After version 3.0.0, please connect to the controller endpoint at https://\<ip\>:30080.  The proxy endpoint at https://\<ip\>:30777 will no longer be valid.**
+You may connect to your cluster endpoint either by clicking on the status bar at the bottom that says `SQL Server BDC Disconnected` or you may click on the `New Connection` button at the top with the arrow pointing into a doorway.  **Please connect to the controller endpoint at https://\<ip\>:30080.  The proxy endpoint at https://\<ip\>:30777 is no longer be valid.**
 
 ![New Connection](assets/images/connect_to_cluster.png)
 
-You will then be prompted for the appropriate endpoint, username, and password.  If given the correct credentials and app endpoint, you will be notified that you've been connected to the cluster and you will see any deployed apps populated in the sidebar. If you successfully connect, your endpoint and username will be saved to ./sqldbc as part of your user profile.  No password or tokens will ever be saved.  When logging in again, the prompt will prefill with your saved host and username but always require you to input a password.  If you wish to connect to a different cluster endpoint, just click the `New Connection` again.  The connection will automatically close if you close VS Code or if you open a different workspace and you will need to reconnect.
+**As of version 1.2.0, You may subsequently choose Basic login which uses Username and Password, or you can choose to do an Active Directory (AD) login.**  You will then be prompted for the appropriate endpoint, username, and password.  If given the correct credentials and app endpoint, you will be notified that you've been connected to the cluster and you will see any deployed apps populated in the sidebar. If you successfully connect, your endpoint and username will be saved to ./sqldbc as part of your user profile.  No password or tokens will ever be saved.  When logging in again, the prompt will prefill with your saved host and username but always require you to input a password.  If you wish to connect to a different cluster endpoint, just click the `New Connection` again.  The connection will automatically close if you close VS Code or if you open a different workspace and you will need to reconnect.
 
 ### App Template
 
